@@ -1,0 +1,1894 @@
+{
+  "categories": {
+    "Gender": {
+      "type": "select",
+      "options": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Affiliation": {
+      "type": "select",
+      "options": [
+        "Straw Hat Pirates",
+        "Whitebeard Pirates",
+        "Blackbeard Pirates",
+        "Marines",
+        "Arlong Pirates",
+        "Krieg Pirates",
+        "Black Cat Pirates",
+        "Mt. Atama Thieves",
+        "Kuja",
+        "Barto Club",
+        "Cross Guild",
+        "Beasts Pirates",
+        "Newkama Land",
+        "Red Hair Pirates",
+        "Heart Pirates",
+        "World Economy News Paper",
+        "Hawkins Pirates",
+        "Bonney Pirates",
+        "Big Mom Pirates",
+        "Revolutionary Army",
+        "Shandia",
+        "CP0",
+        "Donquixote Pirates",
+        "Fire Tank Pirates",
+        "Lvneel",
+        "Saruyama Alliance",
+        "Giant Warrior Pirates",
+        "Mokomo Dukedom",
+        "Kid Pirates",
+        "Beautiful Pirates",
+        "Germa Kingdom",
+        "Thriller Bark Pirates",
+        "Takoyaki 8",
+        "Caribou Pirates",
+        "Roger Pirates",
+        "Kozuki Family",
+        "Sakura Kingdom",
+        "Automata",
+        "Kurozumi Family",
+        "Arabasta Kingdom",
+        "Foxy Pirates",
+        "Dracule Mihawk",
+        "Vinsmoke Family",
+        "None",
+        "New Fish-Man Pirates",
+        "Galley-La Company",
+        "Ninja-Pirate-Mink-Samurai Alliance",
+        "Riku Family",
+        "Baratie",
+        "Neptune Family",
+        "Fallen Monk Pirates",
+        "Impel Down",
+        "Dressrosa"
+      ]
+    },
+    "Devil Fruit": {
+      "type": "select",
+      "options": [
+        "None",
+        "Paramecia",
+        "Logia",
+        "Zoan"
+      ]
+    },
+    "Haki": {
+      "type": "multiselect",
+      "options": [
+        "None",
+        "Eyes",
+        "Crown",
+        "Arm"
+      ]
+    },
+    "Last Bounty": {
+      "type": "number"
+    },
+    "Height": {
+      "type": "height"
+    },
+    "Origin": {
+      "type": "select",
+      "options": [
+        "West Blue",
+        "East Blue",
+        "South Blue",
+        "North Blue",
+        "Grand Line",
+        "Calm Belt",
+        "Red Line",
+        "Sky Islands",
+        "Unknown"
+      ]
+    },
+    "First Arc": {
+      "type": "select",
+      "options": [
+        "Romance Dawn",
+        "Orange Town",
+        "Syrup Village",
+        "Baratie",
+        "Arlong Park",
+        "Loguetown",
+        "Reverse Mountain",
+        "Whiskey Peak",
+        "Little Garden",
+        "Drum Island",
+        "Alabasta",
+        "Jaya",
+        "Skypiea",
+        "Long Ring Long Land",
+        "Water 7",
+        "Enies Lobby",
+        "Post-Enies Lobby",
+        "Thriller Bark",
+        "Sabaody Archipelago",
+        "Amazon Lily",
+        "Impel Down",
+        "Marineford",
+        "Post-War",
+        "Return to Sabaody",
+        "Fish-Man Island",
+        "Punk Hazard",
+        "Dressrosa",
+        "Zou",
+        "Whole Cake Island",
+        "Levely",
+        "Wano Country",
+        "Egghead"
+      ]
+    }
+  },
+  "characters": [
+    {
+      "name": "Nico Robin",
+      "Gender": "Female",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": ["None"],
+      "Last Bounty": 930000000,
+      "Height": 188,
+      "Origin": "West Blue",
+      "First Arc": "Whiskey Peak"
+    },
+    {
+      "name": "Usopp",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": ["Eyes"],
+      "Last Bounty": 500000000,
+      "Height": 176,
+      "Origin": "East Blue",
+      "First Arc": "Syrup Village"
+    },
+    {
+      "name": "Portgas D. Ace",
+      "Gender": "Male",
+      "Affiliation": "Whitebeard Pirates",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 550000000,
+      "Height": 185,
+      "Origin": "South Blue",
+      "First Arc": "Drum Island"
+    },
+    {
+      "name": "Kuzan",
+      "Gender": "Male",
+      "Affiliation": "Blackbeard Pirates",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 298,
+      "Origin": "South Blue",
+      "First Arc": "Long Ring Long Land"
+    },
+    {
+      "name": "Sakazuk",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 5000000000,
+      "Height": 306,
+      "Origin": "North Blue",
+      "First Arc": "Enies Lobby"
+    },
+    {
+      "name": "Arlong",
+      "Gender": "Male",
+      "Affiliation": "Arlong Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 20000000,
+      "Height": 263,
+      "Origin": "Grand Line",
+      "First Arc": "Arlong Park"
+    },
+    {
+      "name": "Don Krieg",
+      "Gender": "Male",
+      "Affiliation": "Krieg Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 17000000,
+      "Height": 243,
+      "Origin": "East Blue",
+      "First Arc": "Baratie"
+    },
+    {
+      "name": "Kuro",
+      "Gender": "Male",
+      "Affiliation": "Black Cat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 16000000,
+      "Height": 207,
+      "Origin": "East Blue",
+      "First Arc": "Syrup Village"
+    },
+    {
+      "name": "Ashura Doji",
+      "Gender": "Male",
+      "Affiliation": "Mt. Atama Thieves",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 544,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Nami",
+      "Gender": "Female",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 366000000,
+      "Height": 170,
+      "Origin": "East Blue",
+      "First Arc": "Orange Town"
+    },
+    {
+      "name": "Boa Hancock",
+      "Gender": "Female",
+      "Affiliation": "Kuja",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 1700000000,
+      "Height": 191,
+      "Origin": "Calm Belt",
+      "First Arc": "Amazon Lily"
+    },
+    {
+      "name": "Jinbe",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 1100000000,
+      "Height": 301,
+      "Origin": "Grand Line",
+      "First Arc": "Impel Down"
+    },
+    {
+      "name": "Brook",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 383000000,
+      "Height": 287,
+      "Origin": "West Blue",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Bartolomeo",
+      "Gender": "Male",
+      "Affiliation": "Barto Club",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 200000000,
+      "Height": 220,
+      "Origin": "East Blue",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Buggy",
+      "Gender": "Male",
+      "Affiliation": "Cross Guild",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 3200000000,
+      "Height": 192,
+      "Origin": "Grand Line",
+      "First Arc": "Orange Town"
+    },
+    {
+      "name": "Kaido",
+      "Gender": "Male",
+      "Affiliation": "Beasts Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 4600000000,
+      "Height": 710,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 174,
+      "Origin": "East Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "Vinsmoke Sanji",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 1000000000,
+      "Height": 180,
+      "Origin": "North Blue",
+      "First Arc": "Baratie"
+    },
+    {
+      "name": "Bentham",
+      "Gender": "Male",
+      "Affiliation": "Newkama Land",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 32000000,
+      "Height": 238,
+      "Origin": "East Blue",
+      "First Arc": "Little Garden"
+    },
+    {
+      "name": "Marshall D. Teach",
+      "Gender": "Male",
+      "Affiliation": "Blackbeard Pirates",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 4000000000,
+      "Height": 344,
+      "Origin": "Grand Line",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Benn. Beckman",
+      "Gender": "Male",
+      "Affiliation": "Red Hair Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 206,
+      "Origin": "North Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "Borsalino",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 302,
+      "Origin": "North Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Bepo",
+      "Gender": "Male",
+      "Affiliation": "Heart Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 500,
+      "Height": 240,
+      "Origin": "Grand Line",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Morgans",
+      "Gender": "Male",
+      "Affiliation": "World Economy News Paper",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 305,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Bellemere",
+      "Gender": "Female",
+      "Affiliation": "Marines",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 186,
+      "Origin": "East Blue",
+      "First Arc": "Arlong Park"
+    },
+    {
+      "name": "Basil Hawkins",
+      "Gender": "Male",
+      "Affiliation": "Hawkins Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 320000000,
+      "Height": 210,
+      "Origin": "North Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Jewelry. Bonney",
+      "Gender": "Female",
+      "Affiliation": "Bonney Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Arm"
+      ],
+      "Last Bounty": 320000000,
+      "Height": 174,
+      "Origin": "Red Line",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Charlotte Linlin",
+      "Gender": "Male",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 4400000000,
+      "Height": 880,
+      "Origin": "Grand Line",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "Gender": "Male",
+      "Affiliation": "Revolutionary Army",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Arm"
+      ],
+      "Last Bounty": 296000000,
+      "Height": 689,
+      "Origin": "South Blue",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Wyper",
+      "Gender": "Male",
+      "Affiliation": "Shandia",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 183,
+      "Origin": "Sky Islands",
+      "First Arc": "Skypiea"
+    },
+    {
+      "name": "Blueno",
+      "Gender": "Male",
+      "Affiliation": "CP0",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 258,
+      "Origin": "North Blue",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Bellamy",
+      "Gender": "Male",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 195000000,
+      "Height": 240,
+      "Origin": "North Blue",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Capone Bege",
+      "Gender": "Male",
+      "Affiliation": "Fire Tank Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 350000000,
+      "Height": 166,
+      "Origin": "West Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Sengoku",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 278,
+      "Origin": "South Blue",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Daz Bones",
+      "Gender": "Male",
+      "Affiliation": "Cross Guild",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 75000000,
+      "Height": 212,
+      "Origin": "West Blue",
+      "First Arc": "Alabasta"
+    },
+    {
+      "name": "Charlotte Brulee",
+      "Gender": "Female",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 350,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Mont Blanc Noland",
+      "Gender": "Male",
+      "Affiliation": "Lvneel",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 220,
+      "Origin": "North Blue",
+      "First Arc": "Skypiea"
+    },
+    {
+      "name": "Mont Blanc Cricket",
+      "Gender": "Male",
+      "Affiliation": "Saruyama Alliance",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 25000000,
+      "Height": 242,
+      "Origin": "North Blue",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Jesus Burgess",
+      "Gender": "Male",
+      "Affiliation": "Blackbeard Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 20000000,
+      "Height": 355,
+      "Origin": "Grand Line",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Dorry",
+      "Gender": "Male",
+      "Affiliation": "Giant Warrior Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 100000000,
+      "Height": 2260,
+      "Origin": "Grand Line",
+      "First Arc": "Little Garden"
+    },
+    {
+      "name": "Brogy",
+      "Gender": "Male",
+      "Affiliation": "Giant Warrior Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 100000000,
+      "Height": 2130,
+      "Origin": "Grand Line",
+      "First Arc": "Little Garden"
+    },
+    {
+      "name": "Carrot",
+      "Gender": "Female",
+      "Affiliation": "Mokomo Dukedom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 161,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    },
+    {
+      "name": "Tony Tony Chopper",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 1000,
+      "Height": 90,
+      "Origin": "Grand Line",
+      "First Arc": "Drum Island"
+    },
+    {
+      "name": "Charlotte Katakuri",
+      "Gender": "Male",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 1100000000,
+      "Height": 509,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Smoker",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 209,
+      "Origin": "Grand Line",
+      "First Arc": "Loguetown"
+    },
+    {
+      "name": "Eustass Kid",
+      "Gender": "Male",
+      "Affiliation": "Kid Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 205,
+      "Origin": "South Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Franky",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 394000000,
+      "Height": 240,
+      "Origin": "South Blue",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Charlotte Pudding",
+      "Gender": "Female",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 166,
+      "Origin": "Grand Line",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Donquixote Rosinante",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 293,
+      "Origin": "Red Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Edward Newgate",
+      "Gender": "Male",
+      "Affiliation": "Whitebeard Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 5000000000,
+      "Height": 666,
+      "Origin": "Grand Line",
+      "First Arc": "Alabasta"
+    },
+    {
+      "name": "Crocodile",
+      "Gender": "Male",
+      "Affiliation": "Cross Guild",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 2000000000,
+      "Height": 253,
+      "Origin": "Grand Line",
+      "First Arc": "Little Garden"
+    },
+    {
+      "name": "Monkey D. Dragon",
+      "Gender": "Male",
+      "Affiliation": "Revolutionary Army",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 256,
+      "Origin": "East Blue",
+      "First Arc": "Loguetown"
+    },
+    {
+      "name": "Cavendish",
+      "Gender": "Male",
+      "Affiliation": "Beautiful Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 330000000,
+      "Height": 208,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Caesar Clown",
+      "Gender": "Male",
+      "Affiliation": "Germa Kingdom",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 300000000,
+      "Height": 309,
+      "Origin": "Grand Line",
+      "First Arc": "Punk Hazard"
+    },
+    {
+      "name": "Oars",
+      "Gender": "Male",
+      "Affiliation": "Thriller Bark Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 6700,
+      "Origin": "North Blue",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Charlotte Perospero",
+      "Gender": "Male",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 700000000,
+      "Height": 333,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Charlotte Mont d'Or",
+      "Gender": "Male",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 120000000,
+      "Height": 260,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Camie",
+      "Gender": "Male",
+      "Affiliation": "Takoyaki 8",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 197,
+      "Origin": "Grand Line",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Caribou",
+      "Gender": "Male",
+      "Affiliation": "Caribou Pirates",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 210000000,
+      "Height": 228,
+      "Origin": "North Blue",
+      "First Arc": "Return to Sabaody"
+    },
+    {
+      "name": "Charlotte Chiffon",
+      "Gender": "Female",
+      "Affiliation": "Fire Tank Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 215,
+      "Origin": "Grand Line",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Donquixote Doflamingo",
+      "Gender": "Male",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 340000000,
+      "Height": 305,
+      "Origin": "Red Line",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Trafalgar D. Water Law",
+      "Gender": "Male",
+      "Affiliation": "Heart Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 191,
+      "Origin": "North Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Gin",
+      "Gender": "Male",
+      "Affiliation": "Krieg Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 12000000,
+      "Height": 186,
+      "Origin": "East Blue",
+      "First Arc": "Baratie"
+    },
+    {
+      "name": "Dracule Mihawk",
+      "Gender": "Male",
+      "Affiliation": "Cross Guild",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 3600000000,
+      "Height": 198,
+      "Origin": "Unknown",
+      "First Arc": "Baratie"
+    },
+    {
+      "name": "Silvers Rayleigh",
+      "Gender": "Male",
+      "Affiliation": "Roger Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 188,
+      "Origin": "Unknown",
+      "First Arc": "Orange Town"
+    },
+    {
+      "name": "Gol D. Roger",
+      "Gender": "Male",
+      "Affiliation": "Roger Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 5600000000,
+      "Height": 274,
+      "Origin": "East Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "X. Drake",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 222000000,
+      "Height": 233,
+      "Origin": "North Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Monkey D. Garp",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 287,
+      "Origin": "East Blue",
+      "First Arc": "Arlong Park"
+    },
+    {
+      "name": "Denjiro",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 306,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Inuarashi",
+      "Gender": "Male",
+      "Affiliation": "Mokomo Dukedom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 511,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    },
+    {
+      "name": "Kureha",
+      "Gender": "Male",
+      "Affiliation": "Sakura Kingdom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 188,
+      "Origin": "Grand Line",
+      "First Arc": "Drum Island"
+    },
+    {
+      "name": "Diamante",
+      "Gender": "Male",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 99000000,
+      "Height": 525,
+      "Origin": "North Blue",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Hogback",
+      "Gender": "Male",
+      "Affiliation": "Thriller Bark Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 223,
+      "Origin": "West Blue",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Shimotsuki Ryuma",
+      "Gender": "Male",
+      "Affiliation": "Thriller Bark Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 179,
+      "Origin": "Grand Line",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Sabo",
+      "Gender": "Male",
+      "Affiliation": "Revolutionary Army",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 602000000,
+      "Height": 187,
+      "Origin": "East Blue",
+      "First Arc": "Post-War"
+    },
+    {
+      "name": "Enel",
+      "Gender": "Male",
+      "Affiliation": "Automata",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "Eyes"
+      ],
+      "Last Bounty": 0,
+      "Height": 266,
+      "Origin": "Sky Islands",
+      "First Arc": "Skypiea"
+    },
+    {
+      "name": "Emporio Ivankov",
+      "Gender": "Male",
+      "Affiliation": "Revolutionary Army",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 100000000,
+      "Height": 449,
+      "Origin": "Grand Line",
+      "First Arc": "Impel Down"
+    },
+    {
+      "name": "Kurozumi Kanjuro",
+      "Gender": "Male",
+      "Affiliation": "Kurozumi Family",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 347,
+      "Origin": "Unknown",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Kin'emon",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 295,
+      "Origin": "Grand Line",
+      "First Arc": "Punk Hazard"
+    },
+    {
+      "name": "Pell",
+      "Gender": "Male",
+      "Affiliation": "Arabasta Kingdom",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 189,
+      "Origin": "Grand Line",
+      "First Arc": "Alabasta"
+    },
+    {
+      "name": "Issho",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 3000000000,
+      "Height": 270,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Foxy",
+      "Gender": "Male",
+      "Affiliation": "Foxy Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 24000000,
+      "Height": 180,
+      "Origin": "South Blue",
+      "First Arc": "Long Ring Long Land"
+    },
+    {
+      "name": "Perona",
+      "Gender": "Female",
+      "Affiliation": "Dracule Mihawk",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 160,
+      "Origin": "West Blue",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Gecko Moria",
+      "Gender": "Male",
+      "Affiliation": "Thriller Bark Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 320000000,
+      "Height": 692,
+      "Origin": "West Blue",
+      "First Arc": "Thriller Bark"
+    },
+    {
+      "name": "Kawamatsu",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 271,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Galdino",
+      "Gender": "Male",
+      "Affiliation": "Cross Guild",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 24000000,
+      "Height": 179,
+      "Origin": "South Blue",
+      "First Arc": "Little Garden"
+    },
+    {
+      "name": "Vinsmoke Judge",
+      "Gender": "Male",
+      "Affiliation": "Vinsmoke Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 272,
+      "Origin": "North Blue",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "Gender": "Male",
+      "Affiliation": "Straw Hat Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 1100000000,
+      "Height": 181,
+      "Origin": "East Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "Shanks",
+      "Gender": "Male",
+      "Affiliation": "Red Hair Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 4000000000,
+      "Height": 199,
+      "Origin": "West Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "Kozuki Hiyori",
+      "Gender": "Female",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 170,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Koby",
+      "Gender": "Male",
+      "Affiliation": "Marines",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 500000000,
+      "Height": 167,
+      "Origin": "East Blue",
+      "First Arc": "Romance Dawn"
+    },
+    {
+      "name": "Hiriluk",
+      "Gender": "Male",
+      "Affiliation": "None",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 213,
+      "Origin": "Grand Line",
+      "First Arc": "Drum Island"
+    },
+    {
+      "name": "Hody Jones",
+      "Gender": "Male",
+      "Affiliation": "New Fish-Man Pirates",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 331,
+      "Origin": "Grand Line",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Kozuki Oden",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 382,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Iceburg",
+      "Gender": "Male",
+      "Affiliation": "Galley-La Company",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 199,
+      "Origin": "Grand Line",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Jabra",
+      "Gender": "Male",
+      "Affiliation": "CP0",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 212,
+      "Origin": "North Blue",
+      "First Arc": "Enies Lobby"
+    },
+    {
+      "name": "Kaku",
+      "Gender": "Male",
+      "Affiliation": "CP0",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 193,
+      "Origin": "East Blue",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Yamato",
+      "Gender": "Female",
+      "Affiliation": "Ninja-Pirate-Mink-Samurai Alliance",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Crown",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 263,
+      "Origin": "Unknown",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Kikunojo",
+      "Gender": "Female",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 287,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Korozumi Tama",
+      "Gender": "Female",
+      "Affiliation": "Kurozumi Family",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 108,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Koala",
+      "Gender": "Female",
+      "Affiliation": "Revolutionary Army",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 160,
+      "Origin": "Unknown",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Killer",
+      "Gender": "Male",
+      "Affiliation": "Kid Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 200000000,
+      "Height": 195,
+      "Origin": "South Blue",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Kozuki Momonosuke",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes"
+      ],
+      "Last Bounty": 0,
+      "Height": 322,
+      "Origin": "Grand Line",
+      "First Arc": "Punk Hazard"
+    },
+    {
+      "name": "Kyros",
+      "Gender": "Male",
+      "Affiliation": "Riku Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 298,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Kalifa",
+      "Gender": "Female",
+      "Affiliation": "CP0",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 185,
+      "Origin": "Grand Line",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Kaya",
+      "Gender": "Female",
+      "Affiliation": "None",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 169,
+      "Origin": "East Blue",
+      "First Arc": "Syrup Village"
+    },
+    {
+      "name": "Rob Lucci",
+      "Gender": "Male",
+      "Affiliation": "CP0",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 212,
+      "Origin": "Grand Line",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Zeff",
+      "Gender": "Male",
+      "Affiliation": "Baratie",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 189,
+      "Origin": "East Blue",
+      "First Arc": "Baratie"
+    },
+    {
+      "name": "Marco",
+      "Gender": "Male",
+      "Affiliation": "Whitebeard Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 1400000000,
+      "Height": 203,
+      "Origin": "Grand Line",
+      "First Arc": "Jaya"
+    },
+    {
+      "name": "Monet",
+      "Gender": "Female",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Logia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 227,
+      "Origin": "North Blue",
+      "First Arc": "Punk Hazard"
+    },
+    {
+      "name": "Shirahoshi",
+      "Gender": "Female",
+      "Affiliation": "Neptune Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes"
+      ],
+      "Last Bounty": 0,
+      "Height": 1187,
+      "Origin": "Grand Line",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Nefertari Vivi",
+      "Gender": "Female",
+      "Affiliation": "Arabasta Kingdom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 169,
+      "Origin": "Grand Line",
+      "First Arc": "Reverse Mountain"
+    },
+    {
+      "name": "Urouge",
+      "Gender": "Male",
+      "Affiliation": "Fallen Monk Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 108000000,
+      "Height": 388,
+      "Origin": "Sky Islands",
+      "First Arc": "Sabaody Archipelago"
+    },
+    {
+      "name": "Nekomamushi",
+      "Gender": "Male",
+      "Affiliation": "Mokomo Dukedom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 522,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    },
+    {
+      "name": "Magellan",
+      "Gender": "Male",
+      "Affiliation": "Impel Down",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 491,
+      "Origin": "Grand Line",
+      "First Arc": "Impel Down"
+    },
+    {
+      "name": "Raizo",
+      "Gender": "Male",
+      "Affiliation": "Kozuki Family",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 311,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    },
+    {
+      "name": "Pekoms",
+      "Gender": "Male",
+      "Affiliation": "Big Mom Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 330000000,
+      "Height": 232,
+      "Origin": "Grand Line",
+      "First Arc": "Fish-Man Island"
+    },
+    {
+      "name": "Nojiko",
+      "Gender": "Female",
+      "Affiliation": "None",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 170,
+      "Origin": "East Blue",
+      "First Arc": "Arlong Park"
+    },
+    {
+      "name": "Pedro",
+      "Gender": "Male",
+      "Affiliation": "Mokomo Dukedom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 382000000,
+      "Height": 233,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    },
+    {
+      "name": "Vinsmoke Reiju",
+      "Gender": "Female",
+      "Affiliation": "Vinsmoke Family",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 173,
+      "Origin": "North Blue",
+      "First Arc": "Whole Cake Island"
+    },
+    {
+      "name": "Paulie",
+      "Gender": "Male",
+      "Affiliation": "Galley-La Company",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 195,
+      "Origin": "Grand Line",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Rebecca",
+      "Gender": "Female",
+      "Affiliation": "Dressrosa",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes"
+      ],
+      "Last Bounty": 0,
+      "Height": 171,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Senor Pink",
+      "Gender": "Male",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 58000000,
+      "Height": 244,
+      "Origin": "North Blue",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Pica",
+      "Gender": "Male",
+      "Affiliation": "Donquixote Pirates",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 99000000,
+      "Height": 470,
+      "Origin": "North Blue",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Spandam",
+      "Gender": "Male",
+      "Affiliation": "CP0",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 192,
+      "Origin": "Grand Line",
+      "First Arc": "Water 7"
+    },
+    {
+      "name": "Tashigi",
+      "Gender": "Female",
+      "Affiliation": "Marines",
+      "Devil Fruit": "None",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 0,
+      "Height": 170,
+      "Origin": "East Blue",
+      "First Arc": "Loguetown"
+    },
+    {
+      "name": "Ulti",
+      "Gender": "Female",
+      "Affiliation": "Beasts Pirates",
+      "Devil Fruit": "Zoan",
+      "Haki": [
+        "Eyes",
+        "Arm"
+      ],
+      "Last Bounty": 400000000,
+      "Height": 173,
+      "Origin": "Grand Line",
+      "First Arc": "Wano Country"
+    },
+    {
+      "name": "Viola",
+      "Gender": "Female",
+      "Affiliation": "Riku Family",
+      "Devil Fruit": "Paramecia",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 178,
+      "Origin": "Grand Line",
+      "First Arc": "Dressrosa"
+    },
+    {
+      "name": "Wanda",
+      "Gender": "Female",
+      "Affiliation": "Mokomo Dukedom",
+      "Devil Fruit": "None",
+      "Haki": [
+        "None"
+      ],
+      "Last Bounty": 0,
+      "Height": 181,
+      "Origin": "Grand Line",
+      "First Arc": "Zou"
+    }
+  ]
+}
