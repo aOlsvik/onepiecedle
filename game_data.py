@@ -96,8 +96,6 @@ class DevilFruit(Category):
 
     def update(self, category_guess: list, feedback_type: FeedbackType):
         option_name = category_guess[0]
-        if self.correct is not None:
-            return
         
         if feedback_type == FeedbackType.GREEN:
             self.correct = option_name
