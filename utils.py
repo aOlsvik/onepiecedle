@@ -39,7 +39,7 @@ def guess_character(character_data, game_data: GameData, guess: str, feedback: F
         gd_cat.update(category_guess, feedback_type)
 
     if game_data.game_over():
-        return guessed_character, 1000, []  # Arbitrary high score for correct guess
+        return guessed_character, 1000, []
 
     best_guess = None
     best_score = -1
