@@ -153,16 +153,13 @@ class Haki(Category):
         """
 
         if self.correct is not None:
-            return 1 if category_guess == self.correct else -1
+            return 1 if set(category_guess) == set(self.correct) else -1
         
         if any(option in self.wrongs for option in category_guess):
             return -1
         
         if any(option in self.yellows for option in category_guess):
-            return 0
-        
-        if all((option not in self.wrongs and option not in self.yellows) and option in self.options for option in category_guess):
-            return 0
+            return 1 
         
         if any(option not in self.options for option in category_guess):
             raise ValueError(f"Invalid option in category_guess for Haki: {category_guess}")
@@ -190,9 +187,9 @@ class LastBounty(Category):
         if feedback_type == FeedbackType.GREEN:
             self.correct = option_name
         elif feedback_type == FeedbackType.UP:
-            self.min_bounty = max(self.min_bounty, option_name)
+            self.min_bounty = max(self.min_bounty, option_name+1)
         elif feedback_type == FeedbackType.DOWN:
-            self.max_bounty = min(self.max_bounty, option_name)
+            self.max_bounty = min(self.max_bounty, option_name-1)
         else:
             raise ValueError(f"Invalid feedback type for Last Bounty: {feedback_type}")
         
