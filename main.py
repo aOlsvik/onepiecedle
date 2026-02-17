@@ -1,14 +1,9 @@
+from setup import setup_game
 from utils import load_json, get_todays_guess, guess_character, gather_feedback
 from game_data import GameData
 
 if __name__ == "__main__":
-    onepiece_data = load_json('onepiece_data.json')
-    character_data = onepiece_data['characters']
-    character_data = [{key.lower().replace(" ", "_"): value for key, value in character.items()} for character in character_data]
-    category_data = onepiece_data['categories']
-    category_data = {key.lower().replace(" ", "_"): value for key, value in category_data.items()}
-    game_data_options = {key.lower().replace(" ", "_") + "_options": list(value.get("options", [])) for key, value in category_data.items()}
-    game_data = GameData(**game_data_options)
+    game_data, character_data = setup_game()
     print("Welcome to One Piece Character Guessing Game!")
     print("=" * 40)
     best_guess = get_todays_guess(character_data)
