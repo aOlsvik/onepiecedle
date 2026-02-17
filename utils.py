@@ -2,6 +2,7 @@ import json
 from feedback import Feedback, FeedbackType
 from game_data import GameData
 import random
+from chapters import arc_before
 
 
 def load_json(filename):
@@ -25,7 +26,7 @@ def guess_character(character_data, game_data: GameData, guess: str, feedback: F
             break
 
     if guessed_character is None:
-        return None, "Character not found in the dataset."
+        return None, "Character not found in the dataset.", []
     
     fb = feedback.__dict__
     gd = game_data.to_dict(printable=False)
@@ -38,7 +39,7 @@ def guess_character(character_data, game_data: GameData, guess: str, feedback: F
         gd_cat.update(category_guess, feedback_type)
 
     if game_data.game_over():
-        return guessed_character, 1000  # Arbitrary high score for correct guess
+        return guessed_character, 1000, []  # Arbitrary high score for correct guess
 
     best_guess = None
     best_score = -1
@@ -124,3 +125,56 @@ def gather_feedback() -> Feedback:
     )
 
 
+def compare_character_to_correct_answer(guess_character, correct_character):
+    feedbacks = []
+
+    def true_false_to_feedback(field_name):
+        guess_value = guess_character[field_name]
+        correct_value = correct_character[field_name]
+        if guess_value == correct_value:
+            feedbacks.append(FeedbackType.GREEN)
+        else:
+            feedbacks.append(FeedbackType.RED)
+            
+    def up_down_to_feedback(field_name):
+        guess_value = guess_character[field_name]
+        correct_value = correct_character[field_name]
+        if guess_value == correct_value:
+            feedbacks.append(FeedbackType.GREEN)
+        elif guess_value < correct_value:
+            feedbacks.append(FeedbackType.UP)
+        else:
+            feedbacks.append(FeedbackType.DOWN)
+    
+    def multiple_choice_to_feedback(field_name):
+        guess_value = guess_character[field_name]
+        correct_value = correct_character[field_name]
+        if set(guess_value) == set(correct_value):
+            feedbacks.append(FeedbackType.GREEN)
+        elif any(item in correct_value for item in guess_value):
+            feedbacks.append(FeedbackType.YELLOW)
+        else:
+            feedbacks.append(FeedbackType.RED)
+            
+    
+    true_false_to_feedback("gender")
+    true_false_to_feedback("affiliation")
+    true_false_to_feedback("devil_fruit")
+    multiple_choice_to_feedback("haki")
+    up_down_to_feedback("last_bounty")
+    up_down_to_feedback("height")
+    true_false_to_feedback("origin")
+    
+    if guess_character["first_arc"] == correct_character["first_arc"]:
+        feedbacks.append(FeedbackType.GREEN)
+    elif arc_before(guess_character["first_arc"], correct_character["first_arc"]):
+        feedbacks.append(FeedbackType.UP)
+    else:
+        feedbacks.append(FeedbackType.DOWN)
+        
+    return Feedback(*feedbacks)
+    
+    
+    
+        
+    
