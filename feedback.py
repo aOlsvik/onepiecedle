@@ -20,3 +20,5 @@ class Feedback:
     origin: FeedbackType
     first_arc: FeedbackType
 
+    def __str__(self):
+        return str({k: v.value for k, v in self.__dict__.items()})
