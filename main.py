@@ -1,6 +1,5 @@
 from setup import setup_game
-from utils import load_json, get_todays_guess, guess_character, gather_feedback
-from game_data import GameData
+from utils import get_todays_guess, guess_character, gather_feedback
 
 if __name__ == "__main__":
     game_data, character_data = setup_game()
