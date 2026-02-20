@@ -127,10 +127,13 @@ class DevilFruit(Category):
 class Haki(Category):
     def __init__(self, options: list):
         super().__init__(options)
+        self.guessed_combinations = set()
 
     def update(self, category_guess: list, feedback_type: FeedbackType):
         if self.correct is not None:
             return
+        
+        self.guessed_combinations.add(tuple((tuple(sorted(category_guess)), feedback_type)))
         
         if feedback_type == FeedbackType.GREEN:
             self.correct = category_guess
@@ -155,6 +158,9 @@ class Haki(Category):
         
         if any(option in self.wrongs for option in category_guess):
             return -1
+        
+        if any(sorted(category_guess) == sorted(guess) and feedback == FeedbackType.YELLOW for guess, feedback in self.guessed_combinations):
+            return 0
         
         if any(option in self.yellows for option in category_guess):
             return 1 
